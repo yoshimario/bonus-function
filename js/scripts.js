@@ -7,7 +7,10 @@ function capital (sentencePrompt) {
   
   let lastLetter =  finalSentence.charAt(finalSentence.length-1).toUpperCase();
   
-return lastLetter; 
+  let test = finalSentence.substring(0, finalSentence.length-1);
+  let test2 = test + lastLetter;
+  
+return test2; 
  
 };
 
